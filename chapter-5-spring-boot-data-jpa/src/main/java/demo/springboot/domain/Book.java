@@ -1,7 +1,10 @@
 package demo.springboot.domain;
 
+import org.hibernate.annotations.Table;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import java.io.Serializable;
 
@@ -15,9 +18,10 @@ public class Book implements Serializable {
 
     /**
      * 编号
+     * 主键自增策略
      */
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     /**
