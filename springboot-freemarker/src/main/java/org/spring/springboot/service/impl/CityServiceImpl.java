@@ -27,8 +27,8 @@ public class CityServiceImpl implements CityService {
         return cityDao.findById(id);
     }
 
-    @Override
-    public Long saveCity(City city) {
+
+    public Long addCity(City city) {
         return cityDao.saveCity(city);
     }
 

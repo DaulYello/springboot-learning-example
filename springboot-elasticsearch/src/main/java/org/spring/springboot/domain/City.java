@@ -22,12 +22,12 @@ public class City implements Serializable{
     /**
      * 省份编号
      */
-    private Long provinceid;
+    private Long provinceId;
 
     /**
      * 城市名称
      */
-    private String cityname;
+    private String cityName;
 
     /**
      * 描述
@@ -42,20 +42,20 @@ public class City implements Serializable{
         this.id = id;
     }
 
-    public Long getProvinceid() {
-        return provinceid;
+    public Long getProvinceId() {
+        return provinceId;
     }
 
-    public void setProvinceid(Long provinceid) {
-        this.provinceid = provinceid;
+    public void setProvinceId(Long provinceId) {
+        this.provinceId = provinceId;
     }
 
-    public String getCityname() {
-        return cityname;
+    public String getCityName() {
+        return cityName;
     }
 
-    public void setCityname(String cityname) {
-        this.cityname = cityname;
+    public void setCityName(String cityName) {
+        this.cityName = cityName;
     }
 
     public String getDescription() {

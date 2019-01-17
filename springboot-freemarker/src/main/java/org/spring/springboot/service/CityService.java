@@ -32,7 +32,7 @@ public interface CityService {
      * @param city
      * @return
      */
-    Long saveCity(City city);
+    Long addCity(City city);
 
     /**
      * 更新城市信息
